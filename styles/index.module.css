@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  justify-content: center; /* centraliza no eixo horizontal */
+  align-items: center;     /* centraliza no eixo vertical */
+  flex-direction: column;  /* coloca o título em cima da imagem */
+  height: 100vh;           /* ocupa toda a tela */
+  overflow: hidden;        /* garante que nada "vaze" */
+}
